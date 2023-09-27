@@ -143,6 +143,7 @@ li{list-style-type: none;}
 .button:hover, .button:focus{background-color: #404BBF}
 
 /*seckond section*/
+.about-our-company .feature-li{width: calc((100% - 72px) / 4);}
 
 .strategy{
     flex-shrink: 0;
@@ -188,6 +189,7 @@ li{list-style-type: none;}
         letter-spacing: 0.32px;
 }
 /*third section*/
+.team-navigation .team-card-mark{width: calc((100% - 72px) / 4);}
 .title-team{
     background: var(--CLOUD, #F4F4FD);
     flex-shrink: 0;
@@ -208,7 +210,6 @@ li{list-style-type: none;}
 .team-card{
     justify-content: center;
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -260,7 +261,7 @@ margin-bottom: 8px
     column-gap: 24px;
     row-gap: 48px;
 }
-.portfolio-class-list{width: calc((100% - 48px) / 3);}
+.portfolio-class .portfolio-class-list{width: calc((100% - 48px) / 3);}
 .portfolio-list-item{
     font-weight: 500;
     font-size: 20px;
