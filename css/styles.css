@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after{box-sizing: border-box;}
-
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -75,6 +75,7 @@ padding: 0;}
 .header-studio-item{
     color: #2e2f42; 
     padding: 24px 0;
+    display: block;
 }
 
 
@@ -97,6 +98,9 @@ padding: 0;}
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 /*header end*/
@@ -116,6 +120,9 @@ padding: 0;}
     line-height: 1.07;
     letter-spacing: 1.12px;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .button{
@@ -132,6 +139,7 @@ padding: 0;}
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 .button-text{
     color: var(--WHITE, #FFF);
@@ -273,7 +281,7 @@ margin-bottom: 8px
 .portfolio-class-list-link{padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-margin-bottom: 8px;}
+}
 
 .portfolio-our-list{
 font-size: 16px;
